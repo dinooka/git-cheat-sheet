@@ -7,3 +7,5 @@ git remote add novelrepo <repo url>
 
 git push <remote> <localbranch>:<remotebranch> - create the remotebranch(if not exist) in github & push the local branch
 ex: git push origina bug_fix:master
+
+git push -u <remote> <localbranch> - push local branch to the remote repo & set upstream. after that we can simply use "git push" to push the changes to the branch.
