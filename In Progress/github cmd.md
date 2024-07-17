@@ -27,6 +27,8 @@ git fetch <remote>
 git fetch origin - get all changes for all branches
 git fetch origin bugfix - get only the specific bnrach changes
 
-PULL
+\*\* PULL
 
 git pull <remote> <branch>
+git pull - by default this will get the latest changes from remote repo. This will automatically track the remote branch.
+Ex: local food branch will track origin/food

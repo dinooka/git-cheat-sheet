@@ -5,7 +5,7 @@ add git username & password
 git init (create the .git folder)
 git status
 git log
-git log --online
+git log --oneline
 
 git add . (stage all files)
 git add <filename1> <filename2> (stage only the mentioned files)
