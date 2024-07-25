@@ -6,6 +6,18 @@
 
 - `git init` : create the .git folder
 
+### Configuration
+
+config options for all repos
+
+- `git config --global user.name "<name>"`
+- `git config --global user.email "<email>"`
+- `git config --global core.editor "<code>"` : VS Code
+
+config options for a specific repo(local)
+
+- `git config user.name "<name>"`
+
 ### Checking Status
 
 - `git status`
@@ -14,6 +26,7 @@
 
 - `git log`
 - `git log --online`
+- `git log main@{3.days.ago}--online`
 
 ### Staging Changes
 
@@ -52,7 +65,7 @@
 
 ### Renaming a Branch
 
-- `git branch -m <branchname>` : rename/move branch (**have to be inside the branch to execute this**)
+- `git branch -m <new_branchname>` : rename/move branch (**have to be inside the branch to execute this**)
 
 ### Merging Branches
 
@@ -65,6 +78,7 @@
 - `git diff` : view only unstaged changes
 - `git diff HEAD <filename>` : view ALL changes (staged & unstaged)
 - `git diff --staged` : view only staged changes
+- `git diff HEAD@{0} HEAD{5}` : changes between last commit to 5 commits ago
 
 ## Stashing Changes
 
