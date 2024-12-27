@@ -90,6 +90,8 @@ config options for a specific repo(local)
 - `git stash -u` : this will apply stash for unstaged files as well
 - `git stash list` : view stash list
 - `git stash apply stash@{0}` : insert multiple stashed changes
+- `git stash push -m 'custom text'` : A custom name will be added to the stashed changes
+- `git stash branch <branch-name> <stash-id>` : Create a new branch with the stashed changes
 
 ### Dropping Stashed Changes
 
