@@ -14,6 +14,10 @@
 - `origin` - default remote name (we can define another name as well)
   - Example: `git remote add novelrepo <repo url>`
 
+### Use SSH for Git
+
+- `git remote set-url origin git@github.com:USERNAME/REPO.git` : update existing repo to use SSH
+
 ### Removing a Remote Repository
 
 - `git remote remove origin` : delete existing remote
